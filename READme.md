@@ -11,11 +11,11 @@ Wiki ```fprint``` on Arch
 
 Check ``` lsusb ```  first, on my machines: 
 
-![Screenshot](./lsusb.png)
+![Screenshot](img/lsusb.png)
 
 
 Bus 001 Device 003: ID ```147e:2020``` Upek TouchChip Fingerprint Coprocessor (WBF advanced mode)
-![Screenshot](./thinkwiki.png)
+![Screenshot](img/thinkwiki.png)
 
 ### Install Fprint:
     $sudo pacman -S fprintd 
@@ -66,7 +66,7 @@ And for ``` /su```, ``` /sudo``` same as above.
       
 OK. Now try fingerprint.
 ### My login
-![Screenshot](./mylogin.jpg)
+![Screenshot](img/mylogin.jpg)
 
 ### Other config
 - ```Thinkfan``` [my-dotfiles](https://github.com/duyhenryer/dotfiles/blob/master/thinkfan.conf)  
