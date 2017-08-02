@@ -56,8 +56,8 @@ add this
      auth sufficient pam_unix.so try_first_pass likeauth nullok
      auth required pam_deny.so
      
-     auth required pam_securetty.so
-     ...
+     #auth required pam_securetty.so
+     # ...
      
 And for ``` /su```, ``` /sudo``` same as above.
 
