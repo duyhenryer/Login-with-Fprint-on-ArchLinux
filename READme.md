@@ -56,12 +56,17 @@ add this
      auth sufficient pam_unix.so try_first_pass likeauth nullok
      auth required pam_deny.so
      
+     auth required pam_securetty.so
+     ...
+     
 And for ``` /su```, ``` /sudo``` same as above.
 
       $sudo vim /etc/pam.d/su
       $sudo vim /etc/pam.d/sudo  
       
 OK. Now try fingerprint.
+### My login
+![Screenshot](./mylogin.jpg)
 
 ### Other config
 - ```Thinkfan``` [my-dotfiles](https://github.com/duyhenryer/dotfiles/blob/master/thinkfan.conf)  
