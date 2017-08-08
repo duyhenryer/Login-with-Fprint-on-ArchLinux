@@ -68,7 +68,8 @@ OK. Now try fingerprint.
 ### My login
 ![Screenshot](img/mylogin.jpg)
 
-![img](https://gifs.com/?source=https://www.youtube.com/watch?v=XJMl-YN3yOY&feature=youtu.be)
+
+![Demo_on_Youtube](https://www.youtube.com/watch?v=RT-CUaLs2BY)
 
 ### Other config
 - ```Thinkfan``` [my-dotfiles](https://github.com/duyhenryer/dotfiles/blob/master/thinkfan.conf)  
