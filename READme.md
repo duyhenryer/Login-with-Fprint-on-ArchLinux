@@ -34,6 +34,12 @@ For User:
 
     $fprintd-enroll
 For Su:
+login with  `su` by error: `su: Authentication failure`
+  
+You can reset the password: `sudo passwd root`
+ 
+ 
+After:
 
     $su
     #fprintd-enroll
